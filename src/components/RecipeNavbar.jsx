@@ -23,18 +23,19 @@ const RecipeNavbar = () => {
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="#">:::</a>
+      <a class="navbar-brand" href="#">: :</a>
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Add</a>
+          <a class="nav-link active" aria-current="page" href="/">Add</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Search</a>
+          <a class="nav-link" href="/search">Search</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#"></a>
+          <a class="nav-link" href="view">View All</a>
         </li>
+
         
       </ul>
       <form class="d-flex" role="search">

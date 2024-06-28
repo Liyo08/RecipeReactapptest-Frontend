@@ -1,9 +1,10 @@
 import React from 'react'
+import RecipeNavbar from './RecipeNavbar'
 
 const SearchRecipe = () => {
     return (
         <div>
-
+<RecipeNavbar/>
 
             <div className="container">
                 <div className="row">
